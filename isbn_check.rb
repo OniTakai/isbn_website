@@ -48,6 +48,7 @@ def check_last_number(isbn_clean)
         end
     else     
     puts "This is not a valid ISBN number"
+    false
     end 
 end 
 
