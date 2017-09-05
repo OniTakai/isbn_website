@@ -6,6 +6,10 @@ get '/' do
     erb :index
 end 
 
+get '/index' do
+    erb :index
+end 
+
 post '/index' do
 my_isbn = params[:my_isbn].to_s
 isbn_result = params[:isbn_result].to_s
